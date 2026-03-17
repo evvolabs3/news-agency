@@ -1,0 +1,21 @@
+# env files (can opt-in for committing if needed)
+.env*
+
+# dependencies
+node_modules/
+
+# build outputs
+dist/
+dist-electron/
+
+# TypeScript incremental build cache
+*.tsbuildinfo
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
